@@ -43,9 +43,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O Melodify tem como público-alvo jovens e adultos entre 18 a 30 anos que residem no Brasil ou falam português, independentemente do nível de familiaridade com a tecnologia, pois a plataforma é acessível diretamente pelo navegador, oferece uma experiência simples e intuitiva. O único requisito é a paixão pela música. O Melodify é ideal para quem deseja recomendar, avaliar e interagir com outros usuários de gostos musicais semelhantes, proporcionando novas experiências de descoberta e compartilhamento musical.
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
