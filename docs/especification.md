@@ -27,14 +27,13 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A música desempenha um papel essencial na vida das pessoas, seja como forma de entretenimento, expressão pessoal ou conexão social. De acordo com um estudo da IFPI (International Federation of the Phonographic Industry), em 2023, as pessoas passaram, em média, 20,7 horas por semana ouvindo música, um aumento significativo em relação aos anos anteriores. No entanto, apesar desse consumo crescente, as formas de interação e compartilhamento musical ainda são limitadas a plataformas não especializadas ou com algoritmos que priorizam grandes artistas e dificultam a descoberta de novas músicas e talentos.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+A ausência de um espaço digital voltado exclusivamente para a troca de opiniões, avaliações e recomendações musicais impacta tanto ouvintes quanto artistas independentes. Segundo dados da plataforma do Spotify, existem mais de 100 milhões de faixas disponíveis, mas estima-se que cerca de 80% das reproduções sejam concentradas em apenas 1% dos artistas. Isso evidencia um problema na descoberta de novas músicas, tornando difícil para ouvintes explorarem sons além das recomendações automatizadas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A criação de uma rede social dedicada ao compartilhamento e avaliação de músicas atende a essa necessidade, permitindo que qualquer pessoa descubra novas faixas por meio de recomendações autênticas e interações diretas com a comunidade. Além disso, proporciona um ambiente mais acessível para artistas independentes divulgarem seu trabalho, democratizando o acesso à música e criando novas oportunidades para talentos emergentes.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Diante desse cenário, este projeto se justifica pela necessidade de um espaço colaborativo onde ouvintes e criadores possam se conectar de maneira mais orgânica, sem depender exclusivamente de algoritmos fechados ou de redes sociais generalistas que não foram projetadas para essa finalidade.
 
 ## Público-Alvo
 
