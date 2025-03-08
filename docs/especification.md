@@ -1,12 +1,12 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A música desempenha um papel essencial na vida das pessoas, influenciando emoções, criando conexões e moldando experiências. Com o crescimento das plataformas de streaming, os ouvintes dispõem de um extenso catálogo de músicas, porém frequentemente encontram obstáculos para descobrir novas canções que realmente se adequem aos seus gostos. A sugestão baseada apenas em algoritmos pode ser restrita, uma vez que não leva em conta as particularidades e vivências individuais de cada ouvinte. Neste cenário, fica clara a necessidade de um método mais interativo e colaborativo para sugestões musicais.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+O principal desafio que procuramos solucionar é a ausência de uma plataforma especializada em recomendações musicais, onde os usuários possam avaliar músicas, trocar opiniões e interagir com outros entusiastas do gênero musical. Nossa proposta é criar uma plataforma que combina tecnologia e interação social para tornar a experiência de descoberta musical mais rica e personalizada.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+O objetivo principal do projeto é desenvolver uma rede social de recomendação de músicas, onde os usuários possam atribuir notas, comentar e indicar faixas para amigos e outros membros da comunidade.
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+A justificativa para esse projeto reside na crescente demanda por experiências sociais no consumo de mídia digital. A interação social tem se mostrado um fator decisivo para o engajamento dos usuários em diversas plataformas, como demonstrado pelo sucesso de redes sociais voltadas ao compartilhamento de experiências e preferências. Com a criação desta ferramenta, buscamos preencher uma lacuna existente no mercado, promovendo não apenas a descoberta de novas músicas, mas também a interação significativa entre os ouvintes.
 
 ## Problema
 
