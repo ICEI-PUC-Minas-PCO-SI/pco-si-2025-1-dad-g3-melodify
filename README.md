@@ -1,10 +1,12 @@
-# Título do Projeto
+# Melodify
 
 `CURSO: Sistemas de Informação`
 
 `DISCIPLINA: Desenvolvimento de Aplicações Distribuídas`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O Melodify é uma plataforma inovadora que une a paixão pela música com a interação social. Aqui, os usuários não apenas descobrem novas canções, mas também compartilham suas recomendações musicais, avaliando e comentando faixas para ajudar outros ouvintes a expandirem seus gostos sonoros. Com essa dinâmica colaborativa, o Melodify transforma a experiência musical em uma conexão social envolvente, onde cada descoberta é impulsionada pelas sugestões e opiniões da própria comunidade.
+
+Seja você um explorador de novos gêneros ou alguém que adora compartilhar aquela música perfeita, o Melodify oferece uma playlist para adicionar as músicas favoritadas, trocar ideias e se conectar com pessoas que compartilham seu gosto musical. Afinal, a melhor trilha sonora é aquela que você descobre junto com os outros. 🎶
 
 ## Integrantes
 
@@ -17,7 +19,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Nome completo do professor 1
+* Kleber Jacques Ferreira de Souza
 
 # Planejamento
 

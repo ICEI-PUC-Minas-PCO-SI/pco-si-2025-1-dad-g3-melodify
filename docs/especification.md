@@ -1,25 +1,20 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+A música desempenha um papel essencial na vida das pessoas, influenciando emoções, criando conexões e moldando experiências. Com o crescimento das plataformas de streaming, os ouvintes dispõem de um extenso catálogo de músicas, porém frequentemente encontram obstáculos para descobrir novas canções que realmente se adequem aos seus gostos. A sugestão baseada apenas em algoritmos pode ser restrita, uma vez que não leva em conta as particularidades e vivências individuais de cada ouvinte. Neste cenário, fica clara a necessidade de um método mais interativo e colaborativo para sugestões musicais.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+O principal desafio que procuramos solucionar é a ausência de uma plataforma especializada em recomendações musicais, onde os usuários possam avaliar músicas, trocar opiniões e interagir com outros entusiastas do gênero musical. Nossa proposta é criar uma plataforma que combina tecnologia e interação social para tornar a experiência de descoberta musical mais rica e personalizada.
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
+O objetivo principal do projeto é desenvolver uma rede social de recomendação de músicas, onde os usuários possam atribuir notas, comentar e indicar faixas para amigos e outros membros da comunidade.
 
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+A justificativa para esse projeto reside na crescente demanda por experiências sociais no consumo de mídia digital. A interação social tem se mostrado um fator decisivo para o engajamento dos usuários em diversas plataformas, como demonstrado pelo sucesso de redes sociais voltadas ao compartilhamento de experiências e preferências. Com a criação desta ferramenta, buscamos preencher uma lacuna existente no mercado, promovendo não apenas a descoberta de novas músicas, mas também a interação significativa entre os ouvintes.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+A música é uma forma de expressão universal, que conecta as pessoas ao redor do mundo. No entanto, apesar da abundância de plataformas de streaming e redes sociais, não existe um espaço centralizado e focado exclusivamente na interação entre pessoas que querem compartilhar, avaliar e descobrir músicas de forma colaborativa.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Atualmente, os usuários recorrem a diferentes meios para expressar suas opiniões sobre músicas e álbuns, como comentários em vídeos, fóruns dispersos ou redes sociais generalistas, que não oferecem funcionalidades específicas para esse propósito. Isso fragmenta a experiência e dificulta a descoberta de novas músicas com base nas avaliações da comunidade.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além disso, artistas independentes e novos talentos encontram dificuldades para alcançar um público engajado que valorize suas produções, já que as grandes plataformas priorizam artistas mais conhecidos ou dependem de algoritmos fechados para recomendações.
 
 ## Objetivos
 
@@ -41,14 +36,13 @@ Objetivos específicos:
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A música desempenha um papel essencial na vida das pessoas, seja como forma de entretenimento, expressão pessoal ou conexão social. De acordo com um estudo da IFPI (International Federation of the Phonographic Industry), em 2023, as pessoas passaram, em média, 20,7 horas por semana ouvindo música, um aumento significativo em relação aos anos anteriores. No entanto, apesar desse consumo crescente, as formas de interação e compartilhamento musical ainda são limitadas a plataformas não especializadas ou com algoritmos que priorizam grandes artistas e dificultam a descoberta de novas músicas e talentos.
 
-Lembre-se de pesquisar e utilizar números que justifiquem por que é importante que tal problema seja resolvido ou que mostrem o impacto do problema na vida das pessoas.
+A ausência de um espaço digital voltado exclusivamente para a troca de opiniões, avaliações e recomendações musicais impacta tanto ouvintes quanto artistas independentes. Segundo dados da plataforma do Spotify, existem mais de 100 milhões de faixas disponíveis, mas estima-se que cerca de 80% das reproduções sejam concentradas em apenas 1% dos artistas. Isso evidencia um problema na descoberta de novas músicas, tornando difícil para ouvintes explorarem sons além das recomendações automatizadas.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+A criação de uma rede social dedicada ao compartilhamento e avaliação de músicas atende a essa necessidade, permitindo que qualquer pessoa descubra novas faixas por meio de recomendações autênticas e interações diretas com a comunidade. Além disso, proporciona um ambiente mais acessível para artistas independentes divulgarem seu trabalho, democratizando o acesso à música e criando novas oportunidades para talentos emergentes.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Diante desse cenário, este projeto se justifica pela necessidade de um espaço colaborativo onde ouvintes e criadores possam se conectar de maneira mais orgânica, sem depender exclusivamente de algoritmos fechados ou de redes sociais generalistas que não foram projetadas para essa finalidade.
 
 ## Público-Alvo
 
