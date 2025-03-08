@@ -10,16 +10,11 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, **não** é a hora de comentar sobre a solução/aplicação.
+A música é uma forma de expressão universal, que conecta as pessoas ao redor do mundo. No entanto, apesar da abundância de plataformas de streaming e redes sociais, não existe um espaço centralizado e focado exclusivamente na interação entre pessoas que querem compartilhar, avaliar e descobrir músicas de forma colaborativa.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+Atualmente, os usuários recorrem a diferentes meios para expressar suas opiniões sobre músicas e álbuns, como comentários em vídeos, fóruns dispersos ou redes sociais generalistas, que não oferecem funcionalidades específicas para esse propósito. Isso fragmenta a experiência e dificulta a descoberta de novas músicas com base nas avaliações da comunidade.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Além disso, artistas independentes e novos talentos encontram dificuldades para alcançar um público engajado que valorize suas produções, já que as grandes plataformas priorizam artistas mais conhecidos ou dependem de algoritmos fechados para recomendações.
 
 ## Objetivos
 
