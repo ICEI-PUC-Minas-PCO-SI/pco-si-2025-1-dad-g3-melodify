@@ -54,19 +54,77 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Persona 1 - Felipe Mendes (O Explorador Musical)
+**Idade:** 25 anos  
+**Profissão:** Arquiteto recém-formado e autônomo  
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+**Objetivos:**
+- Explorar novos estilos musicais enquanto trabalha ou viaja  
+- Compartilhar suas opiniões sobre músicas  
+- Encontrar recomendações musicais personalizadas  
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+**Desafios:**
+- Falta de tempo para pesquisar novas músicas  
+- Dificuldade em encontrar recomendações certeiras  
+
+**Funcionalidades mais relevantes:**  
+- **Gestão de Músicas:** Buscar músicas e integração com o Spotify  
+- **Avaliação e Comentários:** Criar análises sobre músicas  
+- **Recomendações:** Receber sugestões personalizadas  
+
+### Persona 2 - Larissa Mendes (A Crítica Musical)
+**Idade:** 30 anos  
+**Profissão:** Jornalista musical e produtora de conteúdo  
+
+**Objetivos:**
+- Criar análises detalhadas sobre álbuns e singles  
+- Engajar com a comunidade musical  
+- Receber recomendações baseadas no seu gosto  
+
+**Desafios:**
+- Encontrar uma plataforma para compartilhar críticas  
+- Manter um histórico organizado das suas análises  
+
+**Funcionalidades mais relevantes:**  
+- **Avaliação e Comentários:** Criar e deletar análises e comentários  
+- **Autenticação:** Manter um perfil confiável na plataforma  
+- **Recomendações:** Descobrir novas músicas e críticas  
+
+### Persona 3 - Gustavo Ferreira (O Desenvolvedor Entusiasta de IA)
+**Idade:** 22 anos  
+**Profissão:** Estudante de Ciência da Computação  
+
+**Objetivos:**
+- Explorar e contribuir para o sistema de recomendação musical  
+- Testar e otimizar algoritmos de recomendação  
+- Criar perfis para testar personalizações  
+
+**Desafios:**
+- Encontrar métricas sobre o funcionamento do sistema  
+- Lidar com autenticação e gerenciamento da API do Spotify  
+
+**Funcionalidades mais relevantes:**  
+- **Recomendações:** Testar sugestões de músicas e perfis  
+- **Autenticação:** Criar contas para simulações  
+- **Gestão de Músicas:** Analisar como os tokens da API são gerenciados  
+
+### Persona 4 - Mariana Rocha (A Ouvinte Casual)
+**Idade:** 35 anos  
+**Profissão:** Gerente de Projetos  
+
+**Objetivos:**
+- Descobrir novas músicas rapidamente  
+- Ler avaliações antes de escolher playlists  
+- Criar listas de músicas para diferentes momentos do dia  
+
+**Desafios:**
+- Falta de tempo para explorar novos estilos  
+- Evitar recomendações que não combinam com seu gosto  
+
+**Funcionalidades mais relevantes:**  
+- **Recomendações:** Receber sugestões diretas  
+- **Avaliação e Comentários:** Ler avaliações antes de escolher uma música  
+- **Gestão de Músicas:** Buscar músicas por categorias e estilos 
 
 ## Histórias de Usuários
 
