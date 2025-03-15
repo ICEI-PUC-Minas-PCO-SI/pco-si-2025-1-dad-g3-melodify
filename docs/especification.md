@@ -54,7 +54,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 ## Personas
 
-# Persona 1 - Felipe Mendes (O Explorador Musical)
+### Persona 1 - Felipe Mendes (O Explorador Musical)
 **Idade:** 25 anos  
 **Profissão:** Arquiteto recém-formado e autônomo  
 
@@ -72,7 +72,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 - **Avaliação e Comentários:** Criar análises sobre músicas  
 - **Recomendações:** Receber sugestões personalizadas  
 
-# Persona 2 - Larissa Mendes (A Crítica Musical)
+### Persona 2 - Larissa Mendes (A Crítica Musical)
 **Idade:** 30 anos  
 **Profissão:** Jornalista musical e produtora de conteúdo  
 
@@ -90,7 +90,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 - **Autenticação:** Manter um perfil confiável na plataforma  
 - **Recomendações:** Descobrir novas músicas e críticas  
 
-# Persona 3 - Gustavo Ferreira (O Desenvolvedor Entusiasta de IA)
+### Persona 3 - Gustavo Ferreira (O Desenvolvedor Entusiasta de IA)
 **Idade:** 22 anos  
 **Profissão:** Estudante de Ciência da Computação  
 
@@ -108,7 +108,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 - **Autenticação:** Criar contas para simulações  
 - **Gestão de Músicas:** Analisar como os tokens da API são gerenciados  
 
-# Persona 4 - Mariana Rocha (A Ouvinte Casual)
+### Persona 4 - Mariana Rocha (A Ouvinte Casual)
 **Idade:** 35 anos  
 **Profissão:** Gerente de Projetos  
 
