@@ -130,16 +130,29 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`        | PARA ... `MOTIVO/VALOR`                                  |
-|---------------------|-------------------------------------------|----------------------------------------------------------|
-|Usuário do sistema   | Criar uma conta                           | Acessar a aplicação                                      |
-|Usuário do sistema   | Excluir minha conta                       | Remover meus dados do sistema                            |
-|Usuário do sistema   | Fazer login na plataforma                 | Acessar meus dados e preferências                        |
-|Usuário do sistema   | Avaliar músicas e álbuns                  | Ajudar outras pessoas a descobrir boas músicas           |
-|Usuário do sistema   | Comentar em avaliações de outros usuários | Compartilhar minha opinião                               |
-|Usuário do sistema   | Seguir outros usuários                    | Acompanhar recomendações de pessoas com gostos similares |
-|Usuário do sistema   | Marcar músicas como favoritas             | Acessá-las facilmente depois                             |
-|Artista independente | Divulgar minhas músicas na plataforma     | Alcançar um público interessado no meu estilo musical    |
+|EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                                    |
+|---------------------|----------------------------------------------------|------------------------------------------------------------|
+|Usuário do sistema   | Criar uma conta                                    | Acessar a aplicação                                        |
+|Usuário do sistema   | Excluir minha conta                                | Remover meus dados do sistema                              |
+|Usuário do sistema   | Fazer login na plataforma                          | Acessar meus dados e preferências                          |
+|Usuário do sistema   | Avaliar músicas e álbuns                           | Ajudar outras pessoas a descobrir boas músicas             |
+|Usuário do sistema   | Comentar em avaliações de outros usuários          | Compartilhar minha opinião                                 |
+|Usuário do sistema   | Seguir outros usuários                             | Acompanhar recomendações de pessoas com gostos similares   |
+|Usuário do sistema   | Marcar músicas como favoritas                      | Acessá-las facilmente depois                               |
+|Usuário do sistema   | Receber recomendações personalizadas de músicas    | Descobrir novas músicas que combinem com meu gosto         |
+|Usuário do sistema   | Criar playlists baseadas nos meus gostos           | Organizar minhas descobertas musicais de forma prática     |
+|Usuário do sistema   | Compartilhar minhas avaliações sobre músicas       | Expressar minha opinião e ajudar outras pessoas            |
+|Usuário do sistema   | Criar análises detalhadas sobre álbuns e singles   | Compartilhar meu conhecimento com a comunidade musical     |
+|Usuário do sistema   | Editar e excluir minhas análises                   | Manter meu conteúdo atualizado e relevante                 |
+|Usuário do sistema   | Seguir outros usuários                             | Acompanhar as opiniões de pessoas com gostos similares     |
+|Usuário do sistema   | Ter um perfil público com histórico de críticas    | Construir minha reputação na plataforma                    |
+|Usuário do sistema   | Receber sugestões sem precisar pesquisar           | Encontrar boas músicas sem perder tempo                    |
+|Usuário do sistema   | Ler avaliações antes de escolher playlists         | Garantir que estou ouvindo algo que combina comigo         |
+|Usuário do sistema   | Filtrar músicas por categorias e estilos           | Encontrar rapidamente o que desejo ouvir                   |
+|Artista independente | Divulgar minhas músicas na plataforma              | Alcançar um público interessado no meu estilo musical      |
+|Artista independente | Criar um perfil de artista                         | Divulgar meu trabalho e alcançar um novo público           |
+|Artista independente | Publicar minhas músicas na plataforma              | Tornar meu trabalho acessível a mais pessoas               |
+|Artista independente | Receber feedback e avaliações dos usuários         | Melhorar minhas produções musicais com base nas opiniões   |
 
 
 ## Requisitos
