@@ -163,31 +163,28 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | 
 |------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA |  
-|RF-002| A aplicação deve permitir a emissão de um relatório de tarefas realizadas no mês   | MÉDIA | 
-
+|RF-001| A aplicação deve permitir cadastro de usuario | ALTA | 
+|RF-002| A aplicação deve permitir deletar o usuario | MÉDIA | 
+|RF-003| A aplicação deve permitir alterar os dados do usuario | MÉDIA | 
+|RF-004| A aplicação deve autenticar o login | ALTA | 
+|RF-005| A aplicação deve gerenciar a conexão a API do spotify | ALTA | 
+|RF-006| A aplicação deve permitir buscar por uma musica | MÉDIA | 
+|RF-007| A aplicação deve permitir o usuario a analisar uma musica | ALTA | 
+|RF-008| A aplicação deve permitir o usuario a deletar uma analise | BAIXA | 
+|RF-009| A aplicação deve permitir o usuario a comentar em uma analise | MÉDIA | 
+|RF-010| A aplicação deve permitir o usuario a deletar um comentario | BAIXA | 
+|RF-011| A aplicação deve recomendar musicas | BAIXA | 
+|RF-012| A aplicação deve recomendar analises | MÉDIA | 
+|RF-013| A aplicação deve recomendar perfis | BAIXA | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
+|RNF-001| A aplicação deve funcionar adequadamente em navegadores de dispositivos moveis e computadores | MÉDIA | 
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| A aplicação deve ser intuitiva para um uso simples |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -197,13 +194,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|03| Cada membro deve contribuir com pelo menos um serviço da API |
+|04| Usar API do spotify como suporte a obtenção dos dados das musicas e não como uma ferramenta principal |
 
 # Arquitetura da Solução
 
