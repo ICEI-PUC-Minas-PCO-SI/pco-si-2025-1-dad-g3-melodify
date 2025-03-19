@@ -68,7 +68,6 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 - Dificuldade em encontrar recomendações certeiras  
 
 **Funcionalidades mais relevantes:**  
-- **Gestão de Músicas:** Buscar músicas e integração com o Spotify  
 - **Avaliação e Comentários:** Criar análises sobre músicas  
 - **Recomendações:** Receber sugestões personalizadas  
 
@@ -106,7 +105,6 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 **Funcionalidades mais relevantes:**  
 - **Recomendações:** Testar sugestões de músicas e perfis  
 - **Autenticação:** Criar contas para simulações  
-- **Gestão de Músicas:** Analisar como os tokens da API são gerenciados  
 
 ### Persona 4 - Mariana Rocha (A Ouvinte Casual)
 **Idade:** 35 anos  
@@ -124,7 +122,7 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 **Funcionalidades mais relevantes:**  
 - **Recomendações:** Receber sugestões diretas  
 - **Avaliação e Comentários:** Ler avaliações antes de escolher uma música  
-- **Gestão de Músicas:** Buscar músicas por categorias e estilos 
+- **Gestão de Músicas:** Buscar posts por categorias e estilos musicais
 
 ## Histórias de Usuários
 
