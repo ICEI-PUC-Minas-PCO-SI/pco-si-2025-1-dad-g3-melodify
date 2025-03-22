@@ -142,9 +142,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema   | Receber recomendações personalizadas de músicas    | Descobrir novas músicas compatíveis com meu gosto          |
 |Usuário do sistema   | Ter um perfil público com histórico de críticas    | Construir minha reputação na plataforma                    |
 |Usuário do sistema   | Filtrar músicas por categorias e estilos           | Encontrar rapidamente o que desejo ouvir                   |
-|Artista independente | Criar, editar e excluir perfil de artista (CRUD)   | Divulgar meu trabalho e alcançar um novo público           |
-|Artista independente | Divulgar minhas músicas na plataforma  | Tornar meu trabalho acessível a mais pessoas                           |
-|Artista independente | Receber feedback e avaliações dos usuários         | Melhorar minhas produções musicais com base nas opiniões   |
+
 
 
 ## Requisitos
