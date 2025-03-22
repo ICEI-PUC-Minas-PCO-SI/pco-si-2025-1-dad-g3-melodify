@@ -193,9 +193,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Cada membro deve contribuir com pelo menos um serviço da API |
-|04| Usar API do spotify como suporte a obtenção dos dados das musicas e não como uma ferramenta principal |
+|02| Cada membro deve contribuir com pelo menos um serviço da API |
+|03| Usar API do spotify como suporte a obtenção dos dados das musicas e não como uma ferramenta principal |
 
 # Arquitetura da Solução
 
@@ -216,16 +215,18 @@ Apresente também uma figura explicando como as tecnologias estão relacionadas 
 > Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
 
 ### Sprint 1
-- _Scrum master_: AlunaX
-- Protótipos: AlunoY
-- Testes: AlunoK
-- Documentação: AlunaZ
+- Documentação: Carolina, Daniel, Gustavo, Natalia, Vinicius e Yago
 
 ### Sprint 2
-- _Scrum master_: AlunaY
-- Desenvolvedor _front-end_: AlunoX
-- Desenvolvedor _back-end_: AlunoK
-- Testes: AlunaZ
+- _Scrum master_: Gustavo 
+- Desenvolvedor _front-end_: Carol, Natalia 
+- Desenvolvedor _back-end_: Gustavo, Daniel, Vinicius, Yago
+- Testes: 
+
+### Sprint 3 
+- _Scrum master_: Yago 
+- Tester _front-end_: Gustavo
+- Tester _back-end_: Carol, Daniel, Vinicius e Yago
 
 ##  Quadro de tarefas
 
