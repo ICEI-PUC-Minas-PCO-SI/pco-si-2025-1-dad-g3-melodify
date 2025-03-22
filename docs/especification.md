@@ -290,7 +290,7 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g3-melodify                           |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g3-melodify/tree/docs/docs                            |
-| Projeto de interface                | Figma                              | http://....                            |
+| Projeto de interface                | Figma                              | https://www.figma.com/design/kRvH34zU5HpzjFQtRb0gGa/Melodify?t=vvbUfOVauUfrx0rb-1           |
 | Gerenciamento do projeto            | GitHub Projects                    | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g3-melodify/projects?query=is%3Aopen                            |
 | Hospedagem                          | Vercel                             | http://....                            |
  
