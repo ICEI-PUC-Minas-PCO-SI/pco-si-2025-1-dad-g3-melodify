@@ -130,28 +130,20 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
+
 |EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                                    |
 |---------------------|----------------------------------------------------|------------------------------------------------------------|
-|Usuário do sistema   | Criar uma conta                                    | Acessar a aplicação                                        |
-|Usuário do sistema   | Excluir minha conta                                | Remover meus dados do sistema                              |
+|Usuário do sistema   | Criar e excluir minha conta (CRUD)                 | Gerenciar meu acesso e dados pessoais                      |
 |Usuário do sistema   | Fazer login na plataforma                          | Acessar meus dados e preferências                          |
-|Usuário do sistema   | Avaliar músicas e álbuns                           | Ajudar outras pessoas a descobrir boas músicas             |
-|Usuário do sistema   | Comentar em avaliações de outros usuários          | Compartilhar minha opinião                                 |
-|Usuário do sistema   | Seguir outros usuários                             | Acompanhar recomendações de pessoas com gostos similares   |
-|Usuário do sistema   | Marcar músicas como favoritas                      | Acessá-las facilmente depois                               |
-|Usuário do sistema   | Receber recomendações personalizadas de músicas    | Descobrir novas músicas que combinem com meu gosto         |
-|Usuário do sistema   | Criar playlists baseadas nos meus gostos           | Organizar minhas descobertas musicais de forma prática     |
-|Usuário do sistema   | Compartilhar minhas avaliações sobre músicas       | Expressar minha opinião e ajudar outras pessoas            |
-|Usuário do sistema   | Criar análises detalhadas sobre álbuns e singles   | Compartilhar meu conhecimento com a comunidade musical     |
-|Usuário do sistema   | Editar e excluir minhas análises                   | Manter meu conteúdo atualizado e relevante                 |
-|Usuário do sistema   | Seguir outros usuários                             | Acompanhar as opiniões de pessoas com gostos similares     |
+|Usuário do sistema   | Criar, editar e excluir avaliações e álbuns (CRUD)          | Compartilhar minha opinião sobre músicas e álbuns |
+|Usuário do sistema   | Comentar em avaliações de outros usuários e análises          | Compartilhar minha opinião                      |
+|Usuário do sistema   | Seguir e deixar de seguir usuários                 | Acompanhar recomendações de pessoas com gostos similares   |
+|Usuário do sistema   | Favoritar, criar e organizar músicas em playlists (CRUD)  | Acessar e organizar minhas descobertas musicais     |
+|Usuário do sistema   | Receber recomendações personalizadas de músicas    | Descobrir novas músicas compatíveis com meu gosto          |
 |Usuário do sistema   | Ter um perfil público com histórico de críticas    | Construir minha reputação na plataforma                    |
-|Usuário do sistema   | Receber sugestões sem precisar pesquisar           | Encontrar boas músicas sem perder tempo                    |
-|Usuário do sistema   | Ler avaliações antes de escolher playlists         | Garantir que estou ouvindo algo que combina comigo         |
 |Usuário do sistema   | Filtrar músicas por categorias e estilos           | Encontrar rapidamente o que desejo ouvir                   |
-|Artista independente | Divulgar minhas músicas na plataforma              | Alcançar um público interessado no meu estilo musical      |
-|Artista independente | Criar um perfil de artista                         | Divulgar meu trabalho e alcançar um novo público           |
-|Artista independente | Publicar minhas músicas na plataforma              | Tornar meu trabalho acessível a mais pessoas               |
+|Artista independente | Criar, editar e excluir perfil de artista (CRUD)   | Divulgar meu trabalho e alcançar um novo público           |
+|Artista independente | Divulgar minhas músicas na plataforma  | Tornar meu trabalho acessível a mais pessoas                           |
 |Artista independente | Receber feedback e avaliações dos usuários         | Melhorar minhas produções musicais com base nas opiniões   |
 
 
@@ -272,7 +264,37 @@ Legenda:
 
 ## Processo
 
-Coloque informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para garantir um desenvolvimento ágil e eficiente, o grupo utilizará a metodologia Scrum, uma estrutura de trabalho iterativa e incremental que facilita a colaboração entre os membros da equipe. O Scrum será aplicado ao longo do ciclo de desenvolvimento do projeto, permitindo adaptações conforme necessário.
+
+Papéis e Responsabilidades:
+
+Product Owner (PO): Responsável por definir e priorizar os requisitos do produto, garantindo que o backlog do produto esteja alinhado com os objetivos do projeto.
+
+Scrum Master: Facilita a adoção do Scrum, removendo impedimentos e garantindo que as boas práticas sejam seguidas.
+
+Equipe de Desenvolvimento (Front-end e Back-end): Composta por desenvolvedores, designers e outros profissionais necessários para a construção da solução.
+
+Eventos do Scrum:
+
+Sprint Planning: Reunião no início de cada sprint para definir quais tarefas serão abordadas com base na prioridade e complexidade.
+
+Week Planning: Reunião a cada semana para definir e entender como está a situação e o que pode ser feito.
+
+Uso do GitHub para Gerenciamento do Projeto:
+
+O grupo fará uso do GitHub Projects, uma ferramenta integrada ao repositório do projeto, para acompanhar o progresso do desenvolvimento, execução de tarefas e status da solução. (Kanban)
+
+Estrutura do Gerenciamento no GitHub:
+
+Backlog: Listagem de todas as tarefas do projeto organizadas por prioridade.
+
+To Do: Tarefas pendentes para a sprint atual.
+
+In Progress: Tarefas em desenvolvimento.
+
+Review: Tarefas que estão sendo revisadas.
+
+Done: Tarefas concluídas.
  
 > **Links úteis**:
 > - [Planejamento e gestão ágil de projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
