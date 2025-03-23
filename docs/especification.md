@@ -220,7 +220,7 @@ Vamos utilizar:
 
 ### Sprint 1
 
-Atualizado em: 07/03/2025
+Atualizado em: 23/03/2025
 
 | Responsável   | Tarefa/Requisito | Iniciado em    | Prazo      | Status | Terminado em    |
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
@@ -230,7 +230,18 @@ Atualizado em: 07/03/2025
 | Carolina       | Justificativa | 07/03/2025 | 07/03/2025 | ✔️ | 07/03/2025 |
 | Vinicius       | Introdução | 07/03/2025 | 07/03/2025 | ✔️  | 07/03/2025 |
 | Yago      | Público-Alvo | 07/03/2025 | 07/03/2025 | ✔️  | 07/03/2025 |
-|  |  |  |  |  |  |
+| Todos do Grupo     | Requisitos Funcionais | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
+| Todos do Grupo      | Requisitos Não Funcionais | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
+| Yago      | Restrições | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
+| Daniel e Vinicius      | Personas | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
+| Carolina e Natália      | Histórias de Usuário | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
+| Yago      | Tecnologias Utilizadas | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
+| Gustavo      | Divisão de Papéis | 21/03/2025 | 23/03/2025 | ✔️  | 22/03/2025 |
+| Vinicius      | Quadro de Tarefas | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
+| Daniel      | Processos | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
+| Yago      | Ferramentas | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
+| Carolina      | Gerar Tarefas no Github Projects | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
+| Natália      | Criar Imagem da Arquitetura da API | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
 
 ### Sprint 2
 
