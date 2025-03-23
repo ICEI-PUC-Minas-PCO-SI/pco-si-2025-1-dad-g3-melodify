@@ -46,11 +46,7 @@ O Melodify tem como público-alvo jovens e adultos entre 18 a 30 anos que reside
 
 # Especificações do Projeto
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto.
-
-Caso deseje atribuir uma imagem a sua persona, utilize o site https://thispersondoesnotexist.com/
+Definição do problema e ideia de solução a partir da perspectiva do usuário. Composta pela definição do diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
 ## Personas
 
@@ -59,16 +55,16 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 **Profissão:** Arquiteto recém-formado e autônomo  
 
 **Objetivos:**
-- Explorar novos estilos musicais enquanto trabalha ou viaja  
+- Explorar novos estilos musicais enquanto trabalha ou viaja
 - Compartilhar suas opiniões sobre músicas  
 - Encontrar recomendações musicais personalizadas  
 
 **Desafios:**
-- Falta de tempo para pesquisar novas músicas  
+- Falta de tempo para pesquisar novas músicas
 - Dificuldade em encontrar recomendações certeiras  
 
 **Funcionalidades mais relevantes:**  
-- **Gestão de Músicas:** Buscar músicas e integração com o Spotify  
+- **Gestão de Músicas:** Buscar músicas e integração com o Spotify
 - **Avaliação e Comentários:** Criar análises sobre músicas  
 - **Recomendações:** Receber sugestões personalizadas  
 
@@ -77,16 +73,16 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 **Profissão:** Jornalista musical e produtora de conteúdo  
 
 **Objetivos:**
-- Criar análises detalhadas sobre álbuns e singles  
+- Criar análises detalhadas sobre álbuns e singles
 - Engajar com a comunidade musical  
 - Receber recomendações baseadas no seu gosto  
 
 **Desafios:**
-- Encontrar uma plataforma para compartilhar críticas  
+- Encontrar uma plataforma para compartilhar críticas
 - Manter um histórico organizado das suas análises  
 
 **Funcionalidades mais relevantes:**  
-- **Avaliação e Comentários:** Criar e deletar análises e comentários  
+- **Avaliação e Comentários:** Criar e deletar análises e comentários
 - **Autenticação:** Manter um perfil confiável na plataforma  
 - **Recomendações:** Descobrir novas músicas e críticas  
 
@@ -95,16 +91,16 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 **Profissão:** Estudante de Ciência da Computação  
 
 **Objetivos:**
-- Explorar e contribuir para o sistema de recomendação musical  
+- Explorar e contribuir para o sistema de recomendação musical
 - Testar e otimizar algoritmos de recomendação  
 - Criar perfis para testar personalizações  
 
 **Desafios:**
-- Encontrar métricas sobre o funcionamento do sistema  
+- Encontrar métricas sobre o funcionamento do sistema
 - Lidar com autenticação e gerenciamento da API do Spotify  
 
 **Funcionalidades mais relevantes:**  
-- **Recomendações:** Testar sugestões de músicas e perfis  
+- **Recomendações:** Testar sugestões de músicas e perfis
 - **Autenticação:** Criar contas para simulações  
 - **Gestão de Músicas:** Analisar como os tokens da API são gerenciados  
 
@@ -113,23 +109,22 @@ Caso deseje atribuir uma imagem a sua persona, utilize o site https://thisperson
 **Profissão:** Gerente de Projetos  
 
 **Objetivos:**
-- Descobrir novas músicas rapidamente  
+- Descobrir novas músicas rapidamente
 - Ler avaliações antes de escolher playlists  
 - Criar listas de músicas para diferentes momentos do dia  
 
 **Desafios:**
-- Falta de tempo para explorar novos estilos  
+- Falta de tempo para explorar novos estilos
 - Evitar recomendações que não combinam com seu gosto  
 
 **Funcionalidades mais relevantes:**  
-- **Recomendações:** Receber sugestões diretas  
+- **Recomendações:** Receber sugestões diretas
 - **Avaliação e Comentários:** Ler avaliações antes de escolher uma música  
-- **Gestão de Músicas:** Buscar músicas por categorias e estilos 
+- **Gestão de Músicas:** Buscar músicas por categorias e estilos
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                 | PARA ... `MOTIVO/VALOR`                                    |
 |---------------------|----------------------------------------------------|------------------------------------------------------------|
@@ -143,38 +138,35 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema   | Ter um perfil público com histórico de críticas    | Construir minha reputação na plataforma                    |
 |Usuário do sistema   | Filtrar músicas por categorias e estilos           | Encontrar rapidamente o que desejo ouvir                   |
 
-
-
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade | 
-|------|-----------------------------------------|----| 
-|RF-001| A aplicação deve permitir cadastro de usuario | ALTA | 
-|RF-002| A aplicação deve permitir deletar o usuario | MÉDIA | 
-|RF-003| A aplicação deve permitir alterar os dados do usuario | MÉDIA | 
-|RF-004| A aplicação deve autenticar o login | ALTA | 
-|RF-005| A aplicação deve gerenciar a conexão a API do spotify | ALTA | 
-|RF-006| A aplicação deve permitir buscar por uma musica | MÉDIA | 
-|RF-007| A aplicação deve permitir o usuario a analisar uma musica | ALTA | 
-|RF-008| A aplicação deve permitir o usuario a deletar uma analise | BAIXA | 
-|RF-009| A aplicação deve permitir o usuario a comentar em uma analise | MÉDIA | 
-|RF-010| A aplicação deve permitir o usuario a deletar um comentario | BAIXA | 
-|RF-011| A aplicação deve recomendar musicas | BAIXA | 
-|RF-012| A aplicação deve recomendar analises | MÉDIA | 
-|RF-013| A aplicação deve recomendar perfis | BAIXA | 
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| A aplicação deve permitir cadastro de usuario | ALTA |
+|RF-002| A aplicação deve permitir deletar o usuario | MÉDIA |
+|RF-003| A aplicação deve permitir alterar os dados do usuario | MÉDIA |
+|RF-004| A aplicação deve autenticar o login | ALTA |
+|RF-005| A aplicação deve gerenciar a conexão a API do spotify | ALTA |
+|RF-006| A aplicação deve permitir buscar por uma musica | MÉDIA |
+|RF-007| A aplicação deve permitir o usuario a analisar uma musica | ALTA |
+|RF-008| A aplicação deve permitir o usuario a deletar uma analise | BAIXA |
+|RF-009| A aplicação deve permitir o usuario a comentar em uma analise | MÉDIA |
+|RF-010| A aplicação deve permitir o usuario a deletar um comentario | BAIXA |
+|RF-011| A aplicação deve recomendar musicas | BAIXA |
+|RF-012| A aplicação deve recomendar analises | MÉDIA |
+|RF-013| A aplicação deve recomendar perfis | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve funcionar adequadamente em navegadores de dispositivos moveis e computadores | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-|RNF-003| A aplicação deve ser intuitiva para um uso simples |  MÉDIA | 
-
+|RNF-001| A aplicação deve funcionar adequadamente em navegadores de dispositivos moveis e computadores | MÉDIA |
+|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA |
+|RNF-003| A aplicação deve ser intuitiva para um uso simples |  MÉDIA |
 
 ## Restrições
 
@@ -190,37 +182,41 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
+<img src="img/Melodify-Fluxo.png">
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+Vamos utilizar:
+### Frontend 
+- html
+- css
+- javascript
+- bootstrap
+### Backend 
+- C# 
+- API do spotify (para popular nossos dados)
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+(Imagem contendo como a interação do usuário com o sistema vai ser conduzida logo está abaixo do titulo "Arquitetura da Solução")
 
 # Planejamento do projeto
 
-##  Divisão de papéis
-
-> Apresente a divisão de papéis entre os membros do grupo em cada Sprint. O desejável é que, em cada Sprint, o aluno assuma papéis diferentes na equipe. Siga o modelo do exemplo abaixo:
+## Divisão de papéis
 
 ### Sprint 1
 - Documentação: Carolina, Daniel, Gustavo, Natalia, Vinicius e Yago
 
 ### Sprint 2
-- _Scrum master_: Gustavo 
-- Desenvolvedor _front-end_: Carol, Natalia 
+- _Scrum master_: Gustavo
+- Desenvolvedor _front-end_: Carol, Natalia
 - Desenvolvedor _back-end_: Gustavo, Daniel, Vinicius, Yago
-- Testes: 
+- Testes:
 
-### Sprint 3 
-- _Scrum master_: Yago 
+### Sprint 3
+- _Scrum master_: Yago
 - Tester _front-end_: Gustavo
 - Tester _back-end_: Carol, Daniel, Vinicius e Yago
 
-##  Quadro de tarefas
-
-> Apresente a divisão de tarefas entre os membros do grupo e o acompanhamento da execução, conforme o exemplo abaixo.
+## Quadro de tarefas
 
 ### Sprint 1
 
@@ -247,18 +243,11 @@ Atualizado em: 21/04/2024
 | AlunoY        | Página de login  | 01/02/2024     | 07/03/2024 | ⌛     |                 |
 | AlunoK        | Script de login  |  01/01/2024    | 12/03/2024 | ❌    |       |
 
-
 Legenda:
 - ✔️: terminado
 - 📝: em execução
 - ⌛: atrasado
 - ❌: não iniciado
-
-
-> **Links úteis**:
-> - [11 passos essenciais para implantar Scrum no seu projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ## Processo
 
@@ -293,19 +282,8 @@ In Progress: Tarefas em desenvolvimento.
 Review: Tarefas que estão sendo revisadas.
 
 Done: Tarefas concluídas.
- 
-> **Links úteis**:
-> - [Planejamento e gestão ágil de projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Como criar backlogs no GitHub](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial slack](https://slack.com/intl/en-br/)
 
 ## Ferramentas
-
-Liste todas as ferramentas que foram empregadas no projeto, justificando a escolha delas, sempre que possível.
-
-Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | Ambiente                            | Plataforma                         | Link de acesso                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
@@ -314,4 +292,3 @@ Exemplo: os artefatos do projeto são desenvolvidos a partir de diversas platafo
 | Projeto de interface                | Figma                              | https://www.figma.com/design/kRvH34zU5HpzjFQtRb0gGa/Melodify?t=vvbUfOVauUfrx0rb-1           |
 | Gerenciamento do projeto            | GitHub Projects                    | https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g3-melodify/projects?query=is%3Aopen                            |
 | Hospedagem                          | Vercel                             | http://....                            |
- 
