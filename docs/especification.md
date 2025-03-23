@@ -182,21 +182,24 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
 
-<img src="img/Melodify-Fluxo.png">
+![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
 
 ## Tecnologias Utilizadas
 
 Vamos utilizar:
 ### Frontend 
-- html
-- css
-- javascript
-- bootstrap
+- HTML
+- CSS
+- Javascript
+- Bootstrap
+- React
 ### Backend 
 - C# 
 - API do spotify (para popular nossos dados)
+- MySQL
 
-(Imagem contendo como a interação do usuário com o sistema vai ser conduzida logo está abaixo do titulo "Arquitetura da Solução")
+Imagem contendo como a interação do usuário com o sistema vai ser conduzida:
+<img src="img/Melodify-Fluxo.png">
 
 # Planejamento do projeto
 
