@@ -180,9 +180,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Arquitetura da Solução
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
-
-![arq](https://github.com/user-attachments/assets/b9402e05-8445-47c3-9d47-f11696e38a3d)
+Imagem contendo como a interação do usuário com o sistema vai ser conduzida:
+<img src="img/Melodify-Fluxo.png">
 
 ## Tecnologias Utilizadas
 
@@ -198,9 +197,6 @@ Vamos utilizar:
 - API do spotify (para popular nossos dados)
 - MySQL
 
-Imagem contendo como a interação do usuário com o sistema vai ser conduzida:
-<img src="img/Melodify-Fluxo.png">
-
 # Planejamento do projeto
 
 ## Divisão de papéis
@@ -210,9 +206,12 @@ Imagem contendo como a interação do usuário com o sistema vai ser conduzida:
 
 ### Sprint 2
 - _Scrum master_: Gustavo
-- Desenvolvedor _front-end_: Carol, Natalia
-- Desenvolvedor _back-end_: Gustavo, Daniel, Vinicius, Yago
-- Testes:
+- Front-end: Carolina, Natalia
+- Gestão de músicas: Gustavo, Vinicius
+- Recomendação: Carolina, Natalia 
+- Avalição e Comentários: Daniel
+- Autenticação e Gestão do Usuário: Yago
+- Base de dados: Carolina, Daniel, Gustavo, Natalia, Vinicius e Yago
 
 ### Sprint 3
 - _Scrum master_: Yago
