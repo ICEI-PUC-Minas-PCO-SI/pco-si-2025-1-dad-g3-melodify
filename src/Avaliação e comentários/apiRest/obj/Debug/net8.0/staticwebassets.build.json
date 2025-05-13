@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wqBbCllYEViOBAk4V3W2P6GwHar6hRr2kE6VkWOt3H8=",
+  "Source": "apiRest",
+  "BasePath": "_content/apiRest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
