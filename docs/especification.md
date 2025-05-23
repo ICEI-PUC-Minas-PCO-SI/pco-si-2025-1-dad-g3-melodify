@@ -164,9 +164,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve funcionar adequadamente em navegadores de dispositivos moveis e computadores | MÉDIA |
+|RNF-001| A aplicação deve funcionar adequadamente em navegadores de dispositivos moveis e computadores | BAIXA |
 |RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA |
-|RNF-003| A aplicação deve ser intuitiva para um uso simples |  MÉDIA |
+|RNF-003| A aplicação deve ser intuitiva para um uso simples |  BAIXA |
 
 ## Restrições
 
@@ -206,7 +206,6 @@ Vamos utilizar:
 
 ### Sprint 2
 - _Scrum master_: Gustavo
-- Front-end: (Extra, caso seja possível)
 - Gestão de músicas: Gustavo, Vinicius
 - Recomendação: Carolina
 - Avalição e Comentários: Daniel
@@ -215,8 +214,8 @@ Vamos utilizar:
 
 ### Sprint 3
 - _Scrum master_: Yago
-- Tester _front-end_: Gustavo
-- Tester _back-end_: Carol, Daniel, Vinicius e Yago
+- Tester _back-end_: Carol, Daniel, Vinicius, Gustavo e Yago
+- _Front-end_: (Caso de tempo vamos definir)
 
 ## Quadro de tarefas
 
