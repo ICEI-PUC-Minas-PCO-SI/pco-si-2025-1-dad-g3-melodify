@@ -13,7 +13,6 @@ Seja você um explorador de novos gêneros ou alguém que adora compartilhar aqu
 * Carolina Alves Baião Pessoa
 * Daniel Vitor Salviano Araújo
 * Gustavo Augusto Santos Perdigão
-* Natalia Pereira da Silva
 * Vinicius Augusto Gomes de Oliveira
 * Yago de Arruda Simões
 
