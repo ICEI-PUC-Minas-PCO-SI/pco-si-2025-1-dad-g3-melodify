@@ -202,16 +202,16 @@ Vamos utilizar:
 ## Divisão de papéis
 
 ### Sprint 1
-- Documentação: Carolina, Daniel, Gustavo, Natalia, Vinicius e Yago
+- Documentação: Carolina, Daniel, Gustavo, Vinicius e Yago
 
 ### Sprint 2
 - _Scrum master_: Gustavo
-- Front-end: Carolina, Natalia
+- Front-end: (Extra, caso seja possível)
 - Gestão de músicas: Gustavo, Vinicius
-- Recomendação: Carolina, Natalia 
+- Recomendação: Carolina
 - Avalição e Comentários: Daniel
 - Autenticação e Gestão do Usuário: Yago
-- Base de dados: Carolina, Daniel, Gustavo, Natalia, Vinicius e Yago
+- Base de dados: Carolina, Daniel, Gustavo, Vinicius e Yago
 
 ### Sprint 3
 - _Scrum master_: Yago
@@ -236,14 +236,13 @@ Atualizado em: 23/03/2025
 | Todos do Grupo      | Requisitos Não Funcionais | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
 | Yago      | Restrições | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
 | Daniel e Vinicius      | Personas | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
-| Carolina e Natália      | Histórias de Usuário | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
+| Carolina      | Histórias de Usuário | 14/03/2025 | 14/03/2025 | ✔️  | 14/03/2025 |
 | Yago      | Tecnologias Utilizadas | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
 | Gustavo      | Divisão de Papéis | 21/03/2025 | 23/03/2025 | ✔️  | 22/03/2025 |
 | Vinicius      | Quadro de Tarefas | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
 | Daniel      | Processos | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
 | Yago      | Ferramentas | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
 | Carolina      | Gerar Tarefas no Github Projects | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
-| Natália      | Criar Imagem da Arquitetura da API | 21/03/2025 | 23/03/2025 | ✔️  | 23/03/2025 |
 
 ### Sprint 2
 
@@ -253,11 +252,10 @@ Atualizado em: 02/05/2024
 | :----         |    :----         |      :----:    | :----:     | :----: | :----:          |
 | Daniel        | Avaliação   | 11/04/2025     | 01/06/2025 | 📝    |                 |
 | Daniel        | Comentários    | 11/04/2025     | 01/06/2025 | 📝    |                 |
-| Yago       | Autenticação  | 11/04/2025     | 01/06/2025 | 📝     |                 |
+| Yago       | Autenticação  | 10/05/2025     | 01/06/2025 | 📝     |                 |
 | Yago        | Gestão de Usuários  |  11/04/2025    | 01/06/2025 | ✔️    |                 |
 | Gustavo e Vinicius       | Gestão de músicas    | 30/04/2025 | 01/06/2025 | ⌛    |                 |
-| Carol e Natália        | Recomendação de músicas    | - | 01/06/2025 | ❌    |                 |
-| Carol e Natália        | Front-end   | -     | 01/06/2025 | ❌    |                 |
+| Carol       | Recomendação de músicas    | - | 01/06/2025 | 📝    |                 |
 | Todos do grupo        | Base de dados   | 11/04/2025     | 01/06/2025 | 📝    |                 |
 
 Legenda:
