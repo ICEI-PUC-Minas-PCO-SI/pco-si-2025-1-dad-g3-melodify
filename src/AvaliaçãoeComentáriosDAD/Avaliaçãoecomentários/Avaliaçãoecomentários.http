@@ -1,0 +1,6 @@
+@Avaliaçãoecomentários_HostAddress = http://localhost:5241
+
+GET {{Avaliaçãoecomentários_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
