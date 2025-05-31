@@ -8,7 +8,8 @@ namespace Autenticacao_e_Gestao_do_Usuario.Models
         public AppDbContext(DbContextOptions<AppDbContext> options):base(options) { }
 
         public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<Senha> Senha { get; set; }
+
+        public DbSet<Status> Status { get; set; }
 
 
     }

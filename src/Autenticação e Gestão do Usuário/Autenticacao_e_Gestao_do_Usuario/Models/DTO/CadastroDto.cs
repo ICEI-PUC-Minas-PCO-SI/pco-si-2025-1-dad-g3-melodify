@@ -1,19 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.CompilerServices;
 
-namespace Autenticacao_e_Gestao_do_Usuario.Models
+namespace Autenticacao_e_Gestao_do_Usuario.Models.DTO
 {
-    [Table("Usuarios")]
-    //Add-Migration M01-AddTableUsuarios
-    //update-database
-
-    public class Usuario
+    public class CadastroDto
     {
-        [Key]
-        [Required(ErrorMessage = "O campo de id é obrigatório!")]
-        public int Id { get; set; }
-
         [Required(ErrorMessage = "O campo de nome do usuário é obrigatório!")]
         public string Nome { get; set; }
 
@@ -27,14 +17,6 @@ namespace Autenticacao_e_Gestao_do_Usuario.Models
 
         [RegularExpression("^(Usuario|Administrador)$", ErrorMessage = "Perfil deve ser 'Usuario' ou 'Administrador'.")]
         public string Perfil { get; set; }
-
-        //Definidos pela API
-        public int Status { get; set; }
-
-        [Required(ErrorMessage = "O campo de data de criação é obrigatório!")]
-        public DateTime Criado_Em { get; set; }
-
-        public DateTime Alterado_Em { get; set; }
 
     }
 }
