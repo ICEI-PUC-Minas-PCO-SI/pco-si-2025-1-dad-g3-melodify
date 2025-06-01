@@ -106,6 +106,22 @@ Avaliação e Comentários:
 - "perfil" deve ser "Usuario" ou "Administrador".
 ```
 
+#### AlterarUsuarioDto
+(src\Autenticação e Gestão do Usuário\Autenticacao_e_Gestao_do_Usuario\Models\DTO\AlterarUsuarioDto) <br>
+```js
+{
+  "nome*": "string",
+  "email*": "string",
+  "senha*": "string",
+  "perfil": "string",
+  "status": int,
+}
+
+- Os campos com `*` são obrigatórios.
+- "perfil" deve ser "Usuario" ou "Administrador".
+- "status" é um `int` que referencia uma linha da tabela `Status`.
+```
+
 #### Avaliação
 
 #### Comentários
