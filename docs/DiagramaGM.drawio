@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 OPR/118.0.0.0 (Edition std-2)" version="27.1.1">
+  <diagram name="Página-1" id="TH00j1Dnz4ufX9n_wWOo">
+    <mxGraphModel dx="974" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Music&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;Id: int,&lt;/p&gt;&lt;div&gt;&amp;nbsp; SpotifyId: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; Title: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; Artist: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; Album: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; Genre: string?,&lt;/div&gt;&lt;div&gt;&amp;nbsp; Duration: timespan,&lt;/div&gt;&lt;div&gt;&amp;nbsp; ReleaseDate: datetime?,&lt;/div&gt;&lt;div&gt;&amp;nbsp; CoverUrl: string&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="360" width="190" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-16" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;PlaylistMusic&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;PlaylistId: int,&lt;/p&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;MusicId: int&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="390" y="360" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-17" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;Playlist&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;Id: int,&lt;/p&gt;&lt;div&gt;&amp;nbsp; Name: string,&lt;/div&gt;&lt;div&gt;&amp;nbsp; Description: string?,&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;UserId: int&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="360" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-18" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="230" y="460" as="sourcePoint" />
+            <mxPoint x="390" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-19" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="580" y="460" as="sourcePoint" />
+            <mxPoint x="740" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-20" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-21" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="350" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-22" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="590" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="S6kQeI2kpVQc_5WmNKgG-23" value="1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="700" y="430" width="30" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

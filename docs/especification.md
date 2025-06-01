@@ -253,7 +253,7 @@ Atualizado em: 02/05/2024
 | Daniel        | Comentários    | 11/04/2025     | 01/06/2025 | 📝    |                 |
 | Yago       | Autenticação  | 10/05/2025     | 01/06/2025 | 📝     |                 |
 | Yago        | Gestão de Usuários  |  11/04/2025    | 01/06/2025 | ✔️    |                 |
-| Gustavo e Vinicius       | Gestão de músicas    | 30/04/2025 | 01/06/2025 | ⌛    |                 |
+| Gustavo e Vinicius       | Gestão de músicas    | 30/04/2025 | 01/06/2025 | ✔️    | 01/06/2025 |
 | Carol       | Recomendação de músicas    | - | 01/06/2025 | 📝    |                 |
 | Todos do grupo        | Base de dados   | 11/04/2025     | 01/06/2025 | 📝    |                 |
 
