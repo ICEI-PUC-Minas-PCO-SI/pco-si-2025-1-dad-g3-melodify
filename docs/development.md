@@ -2,9 +2,11 @@
 # Desenvolvimento da Aplicação
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+Avaliação e Gestão de Usuário:
+<img src="img/DiagramaAGU.png">
+- *A estrututura de dados no final do arquivo
 
-Avaliação e Comentários: 
+Avaliação e Comentários:
 
 - O diagrama de classes (DIAGRAMADAD.drawio) contém as classes Avaliação e Comentário, onde contém todos os atributos e funções que podem ser realizadas.
 
