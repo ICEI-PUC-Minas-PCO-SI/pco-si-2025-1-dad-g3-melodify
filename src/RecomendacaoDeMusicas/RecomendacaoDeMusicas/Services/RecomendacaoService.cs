@@ -18,7 +18,6 @@ namespace RecomendacaoDeMusicas.Services
         {
             return _context.Musicas
                 .Where(musica => musica.Genre != null && musica.Genre.ToLower().Contains(genero.ToLower()))
-                .Take(10)
                 .ToList();
         }
 
@@ -26,7 +25,6 @@ namespace RecomendacaoDeMusicas.Services
         {
             return _context.Musicas
                 .Where(musica => musica.ReleaseDate.HasValue && musica.ReleaseDate.Value.Year == ano)
-                .Take(10)
                 .ToList();
         }
 
@@ -34,7 +32,6 @@ namespace RecomendacaoDeMusicas.Services
         {
             return _context.Musicas
                 .Where(musica => musica.Artist != null && musica.Artist.ToLower().Contains(artista.ToLower()))
-                .Take(10)
                 .ToList();
         }
     }
