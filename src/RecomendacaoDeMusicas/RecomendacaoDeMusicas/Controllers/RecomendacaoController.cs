@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using RecomendacaoDeMusicas.Data;
 using RecomendacaoDeMusicas.Models;
+using RecomendacaoDeMusicas.Services;
 
 namespace RecomendacaoDeMusicas.Controllers
 {
@@ -9,24 +10,22 @@ namespace RecomendacaoDeMusicas.Controllers
 
         public class RecomendacaoController : ControllerBase
         {
-            private readonly AppDbContext _context;
+            private readonly IRecomendacaoService _service;
 
-            public RecomendacaoController(AppDbContext context)
+            public RecomendacaoController(IRecomendacaoService service)
             {
-                _context = context;
+                _service = service;
             }
 
             // get: api/recomendacao/byGenero?genero={genre}
             [HttpGet("byGenero")]
             public ActionResult<IEnumerable<Musica>> GetByGenero([FromQuery] string genero)
             {
-                var musicas = _context.Musicas
-                    .Where(musica => musica.Genre != null && musica.Genre.ToLower().Contains(genero.ToLower()))
-                    .ToList();
+                var musicas = _service.GetByGenero(genero);
 
-                if(musicas.Count == 0)
+                if (!musicas.Any())
                 {
-                    return NotFound("Não há musicas para recomendar com esse gênero.");
+                    return NotFound("Não há músicas para recomendar com esse gênero.");
                 }
 
                 return Ok(musicas);
@@ -36,12 +35,9 @@ namespace RecomendacaoDeMusicas.Controllers
             [HttpGet("byAno")]
             public ActionResult<IEnumerable<Musica>> GetByAno([FromQuery] int ano)
             {
-                var musicas = _context.Musicas
-                    .Where(musica => musica.ReleaseDate.HasValue && musica.ReleaseDate.Value.Year == ano)
-                    .Take(10)
-                    .ToList();
+                var musicas = _service.GetByAno(ano);
 
-                if (musicas.Count == 0)
+                if (!musicas.Any())
                 {
                     return NotFound("Não há musicas para recomendar com esse ano de lançamento.");
                 }
@@ -53,12 +49,9 @@ namespace RecomendacaoDeMusicas.Controllers
             [HttpGet("byArtista")]
             public ActionResult<IEnumerable<Musica>> GetByArtista([FromQuery] string artista)
             {
-                var musicas = _context.Musicas
-                    .Where(musica => musica.Artist != null && musica.Artist.ToLower().Contains(artista.ToLower()))
-                    .Take(10)
-                    .ToList();
+                var musicas = _service.GetByArtista(artista);;
 
-                if (musicas.Count == 0)
+                if (!musicas.Any())
                 {
                     return NotFound("Não há musicas para recomendar desse artista.");
                 }

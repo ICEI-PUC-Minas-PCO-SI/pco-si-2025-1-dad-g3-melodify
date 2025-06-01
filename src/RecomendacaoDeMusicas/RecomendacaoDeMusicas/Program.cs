@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RecomendacaoDeMusicas.Data;
+using RecomendacaoDeMusicas.Services;
 
 namespace RecomendacaoDeMusicas
 {
@@ -11,8 +12,9 @@ namespace RecomendacaoDeMusicas
 
             builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlite("Data Source=musicas.db"));
 
-            // Add services to the container.
+            builder.Services.AddScoped<IRecomendacaoService, RecomendacaoService>();
 
+            // Add services to the container
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
