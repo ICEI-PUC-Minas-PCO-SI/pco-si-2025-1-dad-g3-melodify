@@ -14,7 +14,7 @@ namespace Autenticacao_e_Gestao_do_Usuario.Models
         public int Id { get; set; }
 
         [Required(ErrorMessage = "Definir a descrição é obrigatório!")]
-        public string Descriscao { get; set; }
+        public string Descricao { get; set; }
 
         //Definidos pela API
         [Required(ErrorMessage = "O campo de data de criação é obrigatório!")]

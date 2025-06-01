@@ -16,6 +16,7 @@ using System.Text;
 using Microsoft.IdentityModel.Tokens;
 using System.Data;
 using Humanizer;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 
 namespace Autenticacao_e_Gestao_do_Usuario.Controllers
@@ -58,15 +59,31 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
         // PUT: api/Usuarios/5
         [HttpPut("{id}")]
         [Authorize(Roles = "Administrador,Usuario")]
-        public async Task<IActionResult> PutUsuario(int id, Usuario usuario)
+        public async Task<IActionResult> PutUsuario(int id, AlterarUsuarioDto usuario)
         {
-            if (id != usuario.Id)
+            var usuarioOri = await _context.Usuarios.FindAsync(id);
+
+            if (usuarioOri == null)
+            {
+                return NotFound();
+            }
+
+            if (id != usuarioOri.Id)
             {
                 return BadRequest();
             }
-            usuario.Senha = BC.HashPassword(usuario.Senha);
 
-            _context.Entry(usuario).State = EntityState.Modified;
+            usuarioOri.Nome = usuario.Nome;
+            usuarioOri.Email = usuario.Email;
+            usuarioOri.Senha = usuario.Senha;
+            usuarioOri.Perfil = usuario.Perfil;
+            usuarioOri.Status = usuario.Status;
+            usuarioOri.Criado_Em = usuarioOri.Criado_Em;
+
+            usuarioOri.Senha = BC.HashPassword(usuarioOri.Senha);
+            usuarioOri.Alterado_Em = DateTime.UtcNow;
+
+            _context.Entry(usuarioOri).State = EntityState.Modified;
 
             try
             {
@@ -122,9 +139,6 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
             {
                 return NotFound();
             }
-
-            //SenhasController senhaController = new SenhasController(_context);
-            //await senhaController.DeleteSenha(id);
 
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
