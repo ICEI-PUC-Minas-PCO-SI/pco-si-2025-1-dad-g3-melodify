@@ -4,6 +4,12 @@
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
+Avaliação e Comentários: 
+
+- O diagrama de classes contém x
+
+- A estrututura é x
+
 
 ## Tecnologias Utilizadas
 ### Backend 
@@ -23,10 +29,10 @@
 |RF-004| A aplicação deve autenticar o login | Yago | UsuariosController.cs | LoginDto, Usuario | POST /api/Usuarios/login | ✅ |
 |RF-005| A aplicação deve gerenciar a conexão a API do spotify | Gustavo/Vinicius | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
 |RF-006| A aplicação deve permitir buscar por uma musica | Gustavo/Vinicius | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
-|RF-007| A aplicação deve permitir o usuario a analisar uma musica | Daniel | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
-|RF-008| A aplicação deve permitir o usuario a deletar uma analise | Daniel | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
-|RF-009| A aplicação deve permitir o usuario a comentar em uma analise | Daniel | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
-|RF-010| A aplicação deve permitir o usuario a deletar um comentario | Daniel | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
+|RF-007| A aplicação deve permitir o usuario a analisar uma musica | Daniel | Avaliação.cs| Avaliação | POST /api/Avaliacao | ✅ |
+|RF-008| A aplicação deve permitir o usuario a deletar uma analise | Daniel | Avaliação.cs | Avaliação | DELETE /api/Avaliacao/{id} |✅ |
+|RF-009| A aplicação deve permitir o usuario a comentar em uma analise | Daniel | Comentário.cs | Avaliação e Comentário | POST /api/Comentario | ✅ |
+|RF-010| A aplicação deve permitir o usuario a deletar um comentario | Daniel | Comentário.cs | Avaliação e Comentário | DELETE /api/Comentario/{id} | ✅ |
 |RF-011| A aplicação deve recomendar musicas | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
 |RF-012| A aplicação deve recomendar analises | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
 |RF-013| A aplicação deve recomendar perfis | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
@@ -35,7 +41,7 @@
 |ID     | Descrição do Requisito  | Atendido |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve processar requisições do usuário em no máximo 3s | ✅ |
-|RNF-002| A aplicação deve ser intuitiva para um uso simples | ❌ |
+|RNF-002| A aplicação deve ser intuitiva para um uso simples | ✅ |
 
 ✅ - Atendido
 ❌ - Não Atendido
@@ -99,3 +105,7 @@
 - Os campos com `*` são obrigatórios.
 - "perfil" deve ser "Usuario" ou "Administrador".
 ```
+
+#### Avaliação
+
+#### Comentários
