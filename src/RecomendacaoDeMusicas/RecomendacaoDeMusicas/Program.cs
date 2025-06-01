@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using RecomendacaoDeMusicas.Models;
+using RecomendacaoDeMusicas.Data;
 
 namespace RecomendacaoDeMusicas
 {
