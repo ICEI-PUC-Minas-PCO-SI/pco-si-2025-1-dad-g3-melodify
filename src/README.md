@@ -2,10 +2,10 @@
 
 ## Instalação do Sistema
 
-Descrição dos requisitos e processo de instalação do sistema.
+Clonar e rodar.
 
 ## Histórico de versões
 
-### [0.1.0] - DD/MM/AAAA
+### [1.5.0] - 01/06/2025
 #### Adicionado
-- Adicionado ...
+- Atualmente é possivel gerenciar usuario e seu status de forma completa.
