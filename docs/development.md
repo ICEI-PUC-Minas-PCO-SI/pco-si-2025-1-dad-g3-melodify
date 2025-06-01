@@ -2,9 +2,9 @@
 # Desenvolvimento da Aplicação
 
 ## Modelagem da Aplicação
-Avaliação e Gestão de Usuário:
+Avaliação e Gestão de Usuário:<br>
 <img src="img/DiagramaAGU.png">
-- *A estrututura de dados no final do arquivo
+- *Estrututura de dados no final do arquivo
 
 Avaliação e Comentários:
 
