@@ -12,6 +12,8 @@ Avaliação e Comentários:
 
 - A estrututura de dados são as duas entidades, nas quais o comentario representa uma resposta escrita feita por um usuário em relação a uma avaliação (e também uma determinada música), e a avaliação representa uma "avaliação" dada sobre uma música com suas características (por exemplo, a música, o texto da avaliação e a hora em que ocorreu).
 
+<img src="img/DIAGRAMADAD.jpg">
+
 Gestão de Músicas:
 
 <img src="img/DiagramaGM.png">
