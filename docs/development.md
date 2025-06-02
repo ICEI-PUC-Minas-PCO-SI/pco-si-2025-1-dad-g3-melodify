@@ -22,7 +22,7 @@ Gestão de Músicas:
 
 Recomendação de Músicas:
 
-<img src="img/DiagramaRM.jpg">
+<img src="img/diagramaRM.jpg">
 
 - A estrutura de dados do projeto é composta por apenas uma entidade de músicas, baseada na modelagem de gestão de músicas, que armazena as músicas que serão recomendadas, com as informações básicas para recomendação por ano de lançamento, artista ou gênero.
 
