@@ -20,6 +20,12 @@ Gestão de Músicas:
 
 - A estrutura de dados do projeto é composta por três entidades: uma para representar as músicas armazenadas, outra para representar playlists criadas por usuários, e uma terceira que define a relação entre músicas e playlists. As explicações detalhadas de cada estrutura se encontram no final do arquivo.
 
+Recomendação de Músicas:
+
+<img src="img/DiagramaRM.jpg">
+
+- A estrutura de dados do projeto é composta por apenas uma entidade de músicas, baseada na modelagem de gestão de músicas, que armazena as músicas que serão recomendadas, com as informações básicas para recomendação por ano de lançamento, artista ou gênero.
+
 
 ## Tecnologias Utilizadas
 ### Backend 
@@ -43,9 +49,9 @@ Gestão de Músicas:
 |RF-008| A aplicação deve permitir o usuario a deletar uma analise | Daniel | Avaliação.cs | Avaliação | DELETE /api/Avaliacao/{id} |✅ |
 |RF-009| A aplicação deve permitir o usuario a comentar em uma analise | Daniel | Comentário.cs | Avaliação e Comentário | POST /api/Comentario | ✅ |
 |RF-010| A aplicação deve permitir o usuario a deletar um comentario | Daniel | Comentário.cs | Avaliação e Comentário | DELETE /api/Comentario/{id} | ✅ |
-|RF-011| A aplicação deve recomendar musicas | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
-|RF-012| A aplicação deve recomendar analises | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
-|RF-013| A aplicação deve recomendar perfis | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ❌ |
+|RF-011| A aplicação deve recomendar musicas por ano de lançamento | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ✅ |
+|RF-012| A aplicação deve recomendar musicas por gênero | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ✅ |
+|RF-013| A aplicação deve recomendar músicas por artista | Carol | Artefato Criado | Estruturas de Dados | Teste/API | ✅ |
 
 #### Requisitos não Funcionais
 |ID     | Descrição do Requisito  | Atendido |
