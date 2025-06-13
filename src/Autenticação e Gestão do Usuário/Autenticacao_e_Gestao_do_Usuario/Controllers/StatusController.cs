@@ -51,25 +51,42 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
         // POST: api/Status
         [HttpPost]
         [Authorize(Roles = "Administrador")]
-        public async Task<ActionResult<Status>> PostStatus(Status status)
+        public async Task<ActionResult<Status>> PostStatus(NovoStatusDto status)
         {
-            _context.Status.Add(status);
+            var statusFull = new Status
+            {
+                Id = 0,
+                Descricao = status.Descricao,
+                Criado_Em = DateTime.UtcNow,
+                Alterado_Em = DateTime.UtcNow
+            };
+            _context.Status.Add(statusFull);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetStatus", new { id = status.Id }, status);
+            return CreatedAtAction("GetStatus", new { id = statusFull.Id }, statusFull);
         }
 
         // PUT: api/Status/5
         [HttpPut("{id}")]
         [Authorize(Roles = "Administrador")]
-        public async Task<IActionResult> PutStatus(int id, Status status)
+        public async Task<IActionResult> PutStatus(int id, AlterarStatusDto status)
         {
-            if (id != status.Id)
+            var statusOri = await _context.Status.FindAsync(id);
+
+            if (statusOri == null)
+            {
+                return NotFound();
+            }
+
+            if (id != statusOri.Id)
             {
                 return BadRequest();
             }
 
-            _context.Entry(status).State = EntityState.Modified;
+            statusOri.Descricao = status.Descricao;
+            statusOri.Alterado_Em = DateTime.UtcNow;
+
+            _context.Entry(statusOri).State = EntityState.Modified;
 
             try
             {
@@ -87,7 +104,7 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok(new { message = "Status atualizado com sucesso." });//NoContent();
         }
 
         // DELETE: api/Status/5
@@ -104,7 +121,7 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
             _context.Status.Remove(status);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(new { message = "Status deletado com sucesso." });//NoContent();
         }
 
         private bool StatusExists(int id)

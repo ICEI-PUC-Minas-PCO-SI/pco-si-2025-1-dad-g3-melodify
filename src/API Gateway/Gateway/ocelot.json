@@ -372,7 +372,6 @@
       "UpstreamPathTemplate": "/recomendacao/byArtista",
       "UpstreamHttpMethod": [ "GET" ]
     }
-
   ],
   "GlobalConfiguration": {
     "BaseUrl": "https://localhost:5000"

@@ -156,9 +156,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| A aplicação deve permitir o usuario a deletar uma analise | BAIXA |
 |RF-009| A aplicação deve permitir o usuario a comentar em uma analise | MÉDIA |
 |RF-010| A aplicação deve permitir o usuario a deletar um comentario | BAIXA |
-|RF-011| A aplicação deve recomendar musicas | BAIXA |
-|RF-012| A aplicação deve recomendar analises | MÉDIA |
-|RF-013| A aplicação deve recomendar perfis | BAIXA |
+|RF-011| A aplicação deve recomendar musicas por artista | BAIXA |
+|RF-012| A aplicação deve recomendar musicas por ano de lançamento | MÉDIA |
+|RF-013| A aplicação deve recomendar musicas por gênero | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -254,7 +254,7 @@ Atualizado em: 02/05/2024
 | Yago       | Autenticação  | 10/05/2025     | 01/06/2025 | 📝     |                 |
 | Yago        | Gestão de Usuários  |  11/04/2025    | 01/06/2025 | ✔️    |                 |
 | Gustavo e Vinicius       | Gestão de músicas    | 30/04/2025 | 01/06/2025 | ✔️    | 01/06/2025 |
-| Carol       | Recomendação de músicas    | - | 01/06/2025 | 📝    |                 |
+| Carol       | Recomendação de músicas    | 22/05/2025     | 01/06/2025 | ✔️    | 01/06/2025 |
 | Todos do grupo        | Base de dados   | 11/04/2025     | 01/06/2025 | 📝    |                 |
 
 Legenda:

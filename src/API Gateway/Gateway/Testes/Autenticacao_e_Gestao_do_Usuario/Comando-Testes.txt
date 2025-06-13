@@ -1,0 +1,5 @@
+Desenvolvimento/Microserviço
+newman run .\MicroservicoAGU.postman_collection.json -e .\Development.postman_environment.json --insecure
+
+Produção/Gateway:
+newman run .\Gateway.postman_collection.json -e .\Production.postman_environment

@@ -1,15 +1,10 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Runtime.CompilerServices;
 
-namespace Autenticacao_e_Gestao_do_Usuario.Models
+namespace Autenticacao_e_Gestao_do_Usuario.Models.DTO
 {
-    [Table("Usuarios")]
-    //Add-Migration M01-AddTableUsuarios
-    //update-database
-
-    public class Usuario
+    public class SaidaUsuarioDto
     {
+
         [Key]
         [Required(ErrorMessage = "O campo de id é obrigatório!")]
         public int Id { get; set; }
@@ -20,10 +15,6 @@ namespace Autenticacao_e_Gestao_do_Usuario.Models
         [Required(ErrorMessage = "O campo de email é obrigatório!")]
         [EmailAddress(ErrorMessage = "Email inválido!")]
         public string Email { get; set; }
-
-        [Required(ErrorMessage = "O campo de senha é obrigatório!")]
-        [DataType(DataType.Password)]
-        public string Senha { get; set; }
 
         [RegularExpression("^(Usuario|Administrador)$", ErrorMessage = "Perfil deve ser 'Usuario' ou 'Administrador'.")]
         public string Perfil { get; set; }

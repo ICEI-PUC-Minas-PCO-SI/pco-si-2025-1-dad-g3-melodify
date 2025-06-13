@@ -36,15 +36,29 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
         // GET: api/Usuarios
         [HttpGet]
         [Authorize(Roles = "Administrador,Usuario")]
-        public async Task<ActionResult<IEnumerable<Usuario>>> GetUsuarios()
+        public async Task<ActionResult<IEnumerable<SaidaUsuarioDto>>> GetUsuarios()
         {
-            return await _context.Usuarios.ToListAsync();
+            //await _context.Usuarios.ToListAsync();
+            var saidaFormatada = await _context.Usuarios
+            .Select(u => new SaidaUsuarioDto
+            {
+                Id = u.Id,
+                Nome = u.Nome,
+                Email = u.Email,
+                Perfil = u.Perfil,
+                Status = u.Status,
+                Criado_Em = u.Criado_Em,
+                Alterado_Em = u.Alterado_Em
+            })
+            .ToListAsync();
+
+            return saidaFormatada;
         }
 
         // GET: api/Usuarios/5
         [HttpGet("{id}")]
         [Authorize(Roles = "Administrador,Usuario")]
-        public async Task<ActionResult<Usuario>> GetUsuario(int id)
+        public async Task<ActionResult<SaidaUsuarioDto>> GetUsuario(int id)
         {
             var usuario = await _context.Usuarios.FindAsync(id);
 
@@ -53,7 +67,18 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
                 return NotFound();
             }
 
-            return usuario;
+            var saidaFormatada = new SaidaUsuarioDto
+            {
+                Id = usuario.Id,
+                Nome = usuario.Nome,
+                Email = usuario.Email,
+                Perfil = usuario.Perfil,
+                Status = usuario.Status,
+                Criado_Em = usuario.Criado_Em,
+                Alterado_Em = usuario.Alterado_Em,
+            };
+
+            return saidaFormatada;
         }
 
         // PUT: api/Usuarios/5
@@ -101,7 +126,7 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
                 }
             }
 
-            return NoContent();
+            return Ok(new { message = "Usuário atualizado com sucesso." });//NoContent();
         }
 
         // POST: api/Usuarios
@@ -143,7 +168,7 @@ namespace Autenticacao_e_Gestao_do_Usuario.Controllers
             _context.Usuarios.Remove(usuario);
             await _context.SaveChangesAsync();
 
-            return NoContent();
+            return Ok(new { message = "Usuário deletado com sucesso." });//NoContent();
         }
 
         private bool UsuarioExists(int id)
