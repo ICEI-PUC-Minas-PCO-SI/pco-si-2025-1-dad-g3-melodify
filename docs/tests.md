@@ -48,7 +48,9 @@ Esta seção descreve a estratégia de testes adotada para garantir a qualidade,
 - Criar usuário com dados válidos → `201 Created`  
 - Login com senha errada → `401 Unauthorized`  
 - Buscar música existente no Spotify → `200 OK` com dados completos  
-- Deletar comentário com ID inexistente → `404 Not Found`  
+- Deletar comentário com ID inexistente → `404 Not Found`
+- Recomendação por artista/gênero/ano válida → `200 OK` com lista de músicas encontradas
+- Recomendação por artista/gênero/ano inválida → `404 Not Found`
 
 ---
 
