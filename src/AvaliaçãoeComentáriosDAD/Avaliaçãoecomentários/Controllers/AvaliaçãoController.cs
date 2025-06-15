@@ -19,43 +19,94 @@ namespace Avaliaçãoecomentários.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Avaliação>>> Get()
         {
-            return await _context.Avaliacoes.ToListAsync();
+            try
+            {
+                var avaliacoes = await _context.Avaliacoes.ToListAsync();
+                return Ok(avaliacoes);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao buscar as avaliações." });
+            }
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Avaliação>> GetById(int id)
         {
-            var avaliacao = await _context.Avaliacoes.FindAsync(id);
-            if (avaliacao == null) return NotFound();
-            return avaliacao;
+            try
+            {
+                var avaliacao = await _context.Avaliacoes.FindAsync(id);
+                if (avaliacao == null)
+                    return NotFound(new { mensagem = "Avaliação não encontrada." });
+
+                return Ok(avaliacao);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao buscar a avaliação." });
+            }
         }
 
         [HttpPost]
         public async Task<ActionResult<Avaliação>> Post(Avaliação avaliacao)
         {
-            _context.Avaliacoes.Add(avaliacao);
-            await _context.SaveChangesAsync();
-            return CreatedAtAction(nameof(GetById), new { id = avaliacao.Id }, avaliacao);
+            try
+            {
+                if (avaliacao == null)
+                    return BadRequest(new { mensagem = "Dados da avaliação inválidos." });
+
+                _context.Avaliacoes.Add(avaliacao);
+                await _context.SaveChangesAsync();
+
+                return CreatedAtAction(nameof(GetById), new { id = avaliacao.Id }, avaliacao);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao criar a avaliação." });
+            }
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> Put(int id, Avaliação avaliacao)
         {
-            if (id != avaliacao.Id) return BadRequest();
-            _context.Entry(avaliacao).State = EntityState.Modified;
-            await _context.SaveChangesAsync();
-            return NoContent();
+            if (id != avaliacao.Id)
+                return BadRequest(new { mensagem = "O ID da URL não corresponde ao ID da avaliação." });
+
+            try
+            {
+                var avaliacaoExistente = await _context.Avaliacoes.AsNoTracking().FirstOrDefaultAsync(a => a.Id == id);
+                if (avaliacaoExistente == null)
+                    return NotFound(new { mensagem = "Avaliação não encontrada para atualização." });
+
+                _context.Entry(avaliacao).State = EntityState.Modified;
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao atualizar a avaliação." });
+            }
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> Delete(int id)
         {
-            var avaliacao = await _context.Avaliacoes.FindAsync(id);
-            if (avaliacao == null) return NotFound();
+            try
+            {
+                var avaliacao = await _context.Avaliacoes.FindAsync(id);
+                if (avaliacao == null)
+                    return NotFound(new { mensagem = "Avaliação não encontrada para exclusão." });
 
-            _context.Avaliacoes.Remove(avaliacao);
-            await _context.SaveChangesAsync();
-            return NoContent();
+                _context.Avaliacoes.Remove(avaliacao);
+                await _context.SaveChangesAsync();
+
+                return NoContent();
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, new { mensagem = "Erro ao excluir a avaliação." });
+            }
         }
     }
 }
