@@ -6,24 +6,28 @@ Este projeto é estruturado em microserviços desenvolvidos no Visual Studio, ut
 
 1. **Clone o repositório:**
    ```bash
+   
    git clone https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2025-1-dad-g3-melodify.git
 
 2. **Acesse a pasta principal do projeto:**
    ```bash
+   
    cd pco-si-2025-1-dad-g3-melodify
 
 3. **Entre na pasta src, onde estão os microserviços separados:**
    ```bash
+   
    cd src
 
 3. **Escolha o microserviço que deseja rodar e entre na respectiva pasta:**
    ```bash
+   
    cd Serviço (exemplo)
    
 4. **Construa e rode a aplicação do microserviço selecionado:**
    ```bash
+   
    dotnet build/ dotnet run
-
 
 ## Histórico de Versões
 
