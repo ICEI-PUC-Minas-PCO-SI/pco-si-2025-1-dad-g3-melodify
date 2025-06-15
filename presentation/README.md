@@ -1,4 +1,3 @@
-# Apresentação
 
 # Melodify - Plataforma de Avaliações e Recomendação Musical
 
@@ -10,14 +9,13 @@ Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento de Apl
 
 ## Arquivos Produzidos
 
-| Arquivo | Localização | Descrição |
-|--------|-------------|-----------|
+| Arquivo        | Localização        | Descrição                                                                 |
+|----------------|--------------------|---------------------------------------------------------------------------|
+| `docs/`        | `/` e `/img/`      | Diagramas UML, fluxogramas e imagens utilizadas no projeto.              |
+| `src/`         | `/`                | Código-fonte da aplicação, dividido por áreas funcionais.                |
+| `src/`         | `/API Gateway/`    | Scripts de teste (Newman/Postman) e evidências de testes.                |
+| `README.md`    | `/`                | Documento explicando o escopo, estrutura e funcionamento do projeto.     |
 
-| `docs/` | `/img/` | Contém todos os diagramas UML e fluxogramas utilizados durante a modelagem, e outras imagens usadas no projeto |
-| `docs/` | Contém todos os diagramas UML e fluxogramas utilizados durante a modelagem |
-| `src/`  | Código-fonte da aplicação, separado por áreas funcionais (Autenticação, Comentários, Músicas) |
-| `src/` | `/API Gateway/` | Scripts de teste Newman/Postman, evidências de testes automatizados e manuais |
-| `README.md` | `/` | Este documento, descrevendo o escopo, funcionamento e estrutura do projeto |
 
 ---
 
