@@ -1,46 +1,41 @@
 # Apresentação
 
-Faça uma apresentação de um resumo de todos o processo de desenvolvimento e no final apresente a solução desenvolvida, usando um pequeno vídeo.
+# Melodify - Plataforma de Avaliações e Recomendação Musical
 
-Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e descrição do conteúdo neste arquivo Readme.md.
+## Apresentação Geral
+Este projeto foi desenvolvido como parte da disciplina de Desenvolvimento de Aplicações Distribuídas, com foco no desenvolvimento de uma API completa voltada para avaliação, recomendação e gerenciamento de músicas e usuários, integrando funcionalidades como autenticação, comentários e consumo da API do Spotify (que o plano principal era montar o Backend de uma aplicação, sendo o front-end não obrigatório.
 
+##  Apresentação e Demonstração
+- **Slides Apresentação Final:** `https://www.canva.com/design/DAGqRWAsKAY/fQzTk8XwXwV-1qFGcwUjGA/edit`   
 
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
-* Vídeo de demonstração-- arquivo com a demonstração do funcionamento do sistema
+## Arquivos Produzidos
 
-O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
+| Arquivo | Localização | Descrição |
+|--------|-------------|-----------|
 
-## Título do Projeto
+| `docs/` | `/img/` | Contém todos os diagramas UML e fluxogramas utilizados durante a modelagem, e outras imagens usadas no projeto |
+| `docs/` | Contém todos os diagramas UML e fluxogramas utilizados durante a modelagem |
+| `src/`  | Código-fonte da aplicação, separado por áreas funcionais (Autenticação, Comentários, Músicas) |
+| `src/` | `/API Gateway/` | Scripts de teste Newman/Postman, evidências de testes automatizados e manuais |
+| `README.md` | `/` | Este documento, descrevendo o escopo, funcionamento e estrutura do projeto |
 
-Nome e marca do projeto
+---
 
-## Identidade Visual (Marca, Design)
+##  Testes
+- **Funcionais:** Swagger, Postman, Newman
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+---
 
-> **Links Úteis**:
-> - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
-> - [7 dicas de design para criar apresentações de PowerPoint incríveis e eficientes](https://www.shutterstock.com/pt/blog/7-dicas-de-design-para-criar-apresentacoes-de-powerpoint-incriveis-e-eficientes)
-> - [Especialista do TED dá 10 dicas para criar slides eficazes e bonitos](https://soap.com.br/blog/especialista-do-ted-da-10-dicas-para-criar-slides-eficazes-e-bonitos)
+##  Tecnologias Utilizadas
+- Linguagem: C#
+- Framework: ASP.NET Core
+- Banco de Dados: MySQL
+- Testes: Postman, Newman, Swagger
+- Integração externa: Spotify API
 
-## Conjunto de Slides (Estrutura)
+> - A apresentação do projeto foi realizada durante a aula, utilizando os slides disponíveis no link acima.
+> - Foi feita uma explicação da estrutura da aplicação, destacando os principais módulos implementados, como autenticação, avaliações e comentários.
+> - Durante a apresentação, foram realizados testes ao vivo nas rotas de login/autenticação, envio de avaliações e comentários, comprovando o funcionamento da API.
+> - O foco foi demonstrar as principais funcionalidades do sistema, com clareza e objetividade, sem entrar em todos os detalhes da implementação.
 
-O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos. Os arquivos devem ser postados na pasta [presentation](../presentation)
- 
-> **Links Úteis**:
-> - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
-> - [Top Tips for Effective Presentations](https://www.skillsyouneed.com/present/presentation-tips.html)
-> - [How to make a great presentation](https://www.ted.com/playlists/574/how_to_make_a_great_presentation)
-
-## Vídeo de demonstração
-
-O grupo deverá gravar um vídeo de demonstração do site desenvolvido.
-
-> **Algumas informações úteis**
-> - O vídeo deve se limitar a 5 minutos e deve apresentar os objetivos do projeto antes de mostrar o sistema desenvolvido.
-> - O vídeo deve possuir uma narração que explica o que está sendo apresentado.
-> - Foque nas principais tarefas que o seu sistema desenvolveu. Não é necessário apresentar cada detalhe implementado.
-> - Não é necessário que todos os integrantes do grupo participem da gravação.
-> - Não é necessário que a face de algum integrante do grupo apareça na gravação.
-> - Uma ótima ferramenta open-source para gravação de vídeos é o [OBS](https://obsproject.com/pt-br/download)
 
