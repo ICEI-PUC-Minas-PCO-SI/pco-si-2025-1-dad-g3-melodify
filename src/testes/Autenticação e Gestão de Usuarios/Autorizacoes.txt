@@ -1,0 +1,16 @@
+- Usuarios
+
+GET Usuarios: Administrador e Usuario
+GET Usuarios/id: Administrador e Usuario
+PUT Usuarios/id: Administrador e Usuario
+POST Usuarios: Qualquer um
+DELETE Usuarios/id: Administrador
+LOGIN Usuarios/login: Qualquer um
+
+- Status
+
+GET Status: Administrador
+GET Status/id: Administrador
+PUT Status/id: Administrador
+POST Status: Administrador
+DELETE Status/id: Administrador

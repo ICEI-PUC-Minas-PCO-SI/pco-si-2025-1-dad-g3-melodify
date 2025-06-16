@@ -11,3 +11,7 @@ Para usar coloque "http://localhost:5087/" seguido pelo caminho que deseja usar.
 ### [1.0.0] - 01/06/2025
 #### Adicionado
 - Todo o funcionamento geral
+
+### [1.1.0] - 15/06/2025
+#### Adicionado
+- Testes adicionados a pasta de testes.
